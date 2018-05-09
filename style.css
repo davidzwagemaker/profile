@@ -6,12 +6,32 @@ body {
 }
 
 a {
-  color: grey;
   text-decoration: none;
 }
 
+a:visited {
+    color: black;
+}
 
-.container {
+
+#sidebar {
+  position: fixed;
+  background-color: #384047;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#content {
+  margin-left: 200px;
+}
+
+#container {
   width: 500px;   /* This sets the width */
   margin: 30px auto; /* This automatically sets left/right margins */
 }
@@ -21,10 +41,6 @@ a {
   padding: 20px;
   border-radius: 4px;
   background: white;
-}
-
-.fab {
-  font-size: 200%;
 }
 
 .img-profile {
@@ -40,8 +56,24 @@ a {
   width: 100px;
 }
 
+.lineheight-2 {
+  line-height: 2
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-125pc {
+  font-size: 125%;
+}
+
+.text-200pc {
+  font-size: 200%;
 }
 
 .tablecell-padded {
