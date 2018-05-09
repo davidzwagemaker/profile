@@ -1,0 +1,59 @@
+body {
+  background-color: #F0EFF4;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  line-height: 100%
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 30px auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  background: white;
+}
+
+.fab {
+  font-size: 200%;
+}
+
+.img-profile {
+  width: 150px;
+  height: 150px;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.img-movie {
+  width: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tablecell-padded {
+  padding: 10px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px 40px;
+}
+
